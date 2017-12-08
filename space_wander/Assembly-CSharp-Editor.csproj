@@ -55,6 +55,9 @@
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>D:/Sherry Files/02. KTH/2.1 MultiModality/solarwander/solarwander/space_wander/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+     <None Include="Assets\Earth\Materials\68774_Saturn (1)\BLENDSWAP_LICENSE.txt" />
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>

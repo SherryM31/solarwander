@@ -54,9 +54,20 @@
      <Compile Include="Assets\Earth\Scripts\EarthRootScript.cs" />
      <Compile Include="Assets\Earth\Scripts\EarthScript.cs" />
      <Compile Include="Assets\Earth\Scripts\MoveScript.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\CenterOfGravity_Mercury.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Earth_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Jupiter_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Mars_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Moon_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Neptune_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Saturn_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Titan_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Uranus_CenterOfGravity.cs" />
+     <Compile Include="Assets\Earth\Scripts\planets scripts\Venus_CenterOfGravity.cs" />
      <Compile Include="Assets\Earth\Scripts\SphereScript.cs" />
      <None Include="Assets\Earth\Readme.txt" />
      <None Include="Assets\Earth\Materials\EarthShader.shader" />
+     <None Include="Assets\Earth\Materials\68774_Saturn (1)\BLENDSWAP_LICENSE.txt" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>

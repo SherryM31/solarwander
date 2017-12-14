@@ -66,6 +66,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
+			//Debug.Log ("camera postion" + Camera.main.transform.position);
+
             RotateView();
             // the jump state needs to read here to make sure it is not missed
 			GoHome();

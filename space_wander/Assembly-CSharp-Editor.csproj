@@ -49,12 +49,18 @@
      <Compile Include="Assets\Earth\Editor\EarthEditor.cs" />
      <None Include="Assets\Earth\Readme.txt" />
      <None Include="Assets\Earth\Materials\EarthShader.shader" />
+<<<<<<< HEAD
+     <None Include="Assets\Earth\Materials\68774_Saturn (1)\BLENDSWAP_LICENSE.txt" />
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+=======
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>D:/Sherry Files/02. KTH/2.1 MultiModality/solarwander/solarwander/space_wander/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+>>>>>>> cfc6ea370196c618b36f646659e02d65dd4f7bc4
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>

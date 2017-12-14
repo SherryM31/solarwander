@@ -25,3 +25,5 @@
 /Users/dipeshmitthalal/solarwander/space_wander/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/dipeshmitthalal/solarwander/space_wander/obj/Debug/Assembly-CSharp.dll
 /Users/dipeshmitthalal/solarwander/space_wander/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/dipeshmitthalal/solarwander/space_wander/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/dipeshmitthalal/solarwander/space_wander/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb

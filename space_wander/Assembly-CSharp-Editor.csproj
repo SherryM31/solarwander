@@ -53,6 +53,7 @@
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Earth\Materials\68774_Saturn (1)\BLENDSWAP_LICENSE.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>D:/Sherry Files/02. KTH/2.1 MultiModality/solarwander/solarwander/space_wander/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>

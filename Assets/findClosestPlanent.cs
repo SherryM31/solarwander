@@ -25,10 +25,12 @@ public class findClosestPlanent : MonoBehaviour {
 
 			Vector3 directionToTarget = position - go.transform.position;
 			float angle = Vector3.Angle(transform.forward, directionToTarget);
-
 			float distance = directionToTarget.magnitude;
 
-			if (Mathf.Abs (angle) > 90 && distance < 200) {
+			Debug.Log ("go" + go + "angle" + angle);
+			Debug.Log ("distance" + distance);
+
+			if (Mathf.Abs (angle) > 90 && distance < 150) {
 				Debug.Log ("target is in front of me");
 				Debug.Log ("1");
 				closest = go;

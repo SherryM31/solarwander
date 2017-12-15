@@ -93,7 +93,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 		//go back to initial point
 		private void GoHome(){
-			if(Input.GetKeyDown("joystick button 2")){
+			if(Input.GetKeyDown("joystick button 12")){
 				Debug.Log("home button pressed");
 				transform.rotation = Quaternion.Lerp(transform.rotation,originalrotation,Time.time*rotateSpeed);
 				transform.position = new Vector3(185, 6, 64);

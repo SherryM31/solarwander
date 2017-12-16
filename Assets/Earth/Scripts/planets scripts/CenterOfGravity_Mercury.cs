@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CenterOfGravity_Mercury : MonoBehaviour {
 
-	float rotationSpeed = 8.0f;
+	float rotationSpeed = 4.5f;
 	// Use this for initialization
 	void Start () {
 		

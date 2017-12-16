@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Saturn_CenterOfGravity : MonoBehaviour {
 
-	float rotationSpeed = 3.0f;
+	float rotationSpeed = 2.0f;
 	// Use this for initialization
 	void Start () {
 

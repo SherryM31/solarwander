@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jupiter_CenterOfGravity : MonoBehaviour {
 
-	float rotationSpeed = 4.0f;
+	float rotationSpeed = 2.5f;
 	// Use this for initialization
 	void Start () {
 

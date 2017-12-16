@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Uranus_CenterOfGravity : MonoBehaviour {
 
-	float rotationSpeed = 2.0f;
+	float rotationSpeed = 1.5f;
 	// Use this for initialization
 	void Start () {
 

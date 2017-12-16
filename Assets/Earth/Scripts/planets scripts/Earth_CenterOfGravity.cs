@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Earth_CenterOfGravity : MonoBehaviour {
 
-	float rotationSpeed = 6.0f;
+	float rotationSpeed = 3.5f;
 	// Use this for initialization
 	void Start () {
 

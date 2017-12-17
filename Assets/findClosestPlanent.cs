@@ -37,7 +37,7 @@ public class findClosestPlanent : MonoBehaviour {
 				Debug.Log ("Closest Planet" + closest);
 				Debug.Log ("angle" + angle);
 				Debug.Log ("dist" + distance);
-				GameObject.Find ("CenterOfGravity_mercury").GetComponent<CenterOfGravity_Mercury> ().enabled = false;
+				GameObject.Find ("CenterOfGravity_mercury").GetComponent<Mercury_CenterOfGravity> ().enabled = false;
 				GameObject.Find ("CenterOfGravity_venus").GetComponent<Venus_CenterOfGravity> ().enabled = false;
 				GameObject.Find ("CenterOfGravity_earth").GetComponent<Earth_CenterOfGravity> ().enabled = false;
 				GameObject.Find ("CenterOfGravity_mars").GetComponent<Mars_CenterOfGravity> ().enabled = false;
@@ -48,7 +48,7 @@ public class findClosestPlanent : MonoBehaviour {
 				GameObject.Find ("CenterOfGravity_neptune").GetComponent<Neptune_CenterOfGravity> ().enabled = false;
 			}
 			else{
-			    GameObject.Find ("CenterOfGravity_mercury").GetComponent<CenterOfGravity_Mercury> ().enabled = true;
+			    GameObject.Find ("CenterOfGravity_mercury").GetComponent<Mercury_CenterOfGravity> ().enabled = true;
 				GameObject.Find ("CenterOfGravity_venus").GetComponent<Venus_CenterOfGravity> ().enabled = true;
 				GameObject.Find ("CenterOfGravity_earth").GetComponent<Earth_CenterOfGravity> ().enabled = true;
 				GameObject.Find ("CenterOfGravity_mars").GetComponent<Mars_CenterOfGravity> ().enabled = true;

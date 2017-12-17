@@ -16,7 +16,7 @@ public class AudioScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown("joystick button 12")){
+		if (Input.GetKeyDown("joystick button 1")){
 			if (AudioPlay == true){
 				MusicSource.Stop ();
 			}

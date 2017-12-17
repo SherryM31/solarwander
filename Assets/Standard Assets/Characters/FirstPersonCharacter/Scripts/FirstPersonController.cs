@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
+//using UnityStandardAssets.Characters.FirstPerson;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -50,6 +51,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             m_CharacterController = GetComponent<CharacterController>();
             m_Camera = Camera.main;
+			//set original rotation
             m_OriginalCameraPosition = m_Camera.transform.localPosition;
             m_FovKick.Setup(m_Camera);
             m_HeadBob.Setup(m_Camera, m_StepInterval);
@@ -59,6 +61,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
 			originalrotation = transform.rotation;
+
         }
 
 
@@ -66,11 +69,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
+			
+			RotateView ();
+			GoHome ();
+			BirdView ();
 			//Debug.Log ("camera postion" + Camera.main.transform.position);
-
-            RotateView();
             // the jump state needs to read here to make sure it is not missed
-			GoHome();
+
             if (!m_Jump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
@@ -89,6 +94,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+		
         }
 
 		//go back to initial point
@@ -96,10 +102,23 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			if(Input.GetKeyDown("joystick button 12")){
 				Debug.Log("home button pressed");
 				transform.rotation = Quaternion.Lerp(transform.rotation,originalrotation,Time.time*rotateSpeed);
-				transform.position = new Vector3(185, 6, 64);
+				transform.position = new Vector3(753, 3, 602);
+			}
+		}
+
+		//birdview spot
+		private void BirdView(){
+			if(Input.GetKeyDown("joystick button 2")){
+				Debug.Log("birdview button pressed");
+				Debug.Log ("Destroyed");
+				m_CharacterController.transform.GetComponent<FirstPersonController> ().enabled = false;
+				transform.localEulerAngles = new Vector3 (8,8,8);
+				m_CharacterController.transform.GetComponent<FirstPersonController> ().enabled = true;
+				transform.position = new Vector3(0, 5000, 0);
 
 			}
 		}
+
 
         private void PlayLandingSound()
         {
